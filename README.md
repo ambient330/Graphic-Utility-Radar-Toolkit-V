@@ -2,7 +2,7 @@
 GURT V (the V stands for vispy)
 
 
-A graphical interface built on ARM PyART & VisPY that emulates NCAR's SOLO3 program.
+A python library that specializes in the graphical viewing and editing of weather radar data
 
 -----------------------------USAGE------------------------------------------
 
