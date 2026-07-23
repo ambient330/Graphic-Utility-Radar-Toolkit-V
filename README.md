@@ -2,7 +2,7 @@
 GURT V (the V stands for vispy)
 
 
-A python library that specializes in the graphical viewing and editing of weather radar data
+A python library that specializes in the graphical viewing and manual editing of weather radar data
 
 -----------------------------USAGE------------------------------------------
 
@@ -19,10 +19,10 @@ Azimuth/range rings(km)/tick marks(km)
 
 Data editing:
 
-    User selected unfolding with PyART region dealias and KDP processing
-    Unfolding/deglitching brush (adennison2009)
-    Boundary-guided deletion tool (adennison2009)
-    Gate averaging brush/boundary tool (adennison2009)
+    Unfolding/deglitching brush 
+    Boundary-guided deletion tool 
+    Gate averaging brush/boundary tool 
+    Batch boundary editing
 
 PREREQUISITE PACKAGES FOR V4:
 
@@ -30,6 +30,8 @@ PREREQUISITE PACKAGES FOR V4:
     numpy
     scipy
     PyART
+    numba
+    PyQT5
 
 Data recovered from gate averaging should be considered subjective
 
